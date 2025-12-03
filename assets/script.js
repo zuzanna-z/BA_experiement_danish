@@ -499,7 +499,7 @@ let first_instance = true;
 
 Array.from(
     answer_block.getElementsByTagName("input")
-  ).forEach(elm=>{
+  ).forEach(elm => {
   elm.addEventListener("click", (e) => {
   // console.log("clicked");
   // console.log(e.target.tagName);
@@ -828,4 +828,5 @@ document.getElementById("participant_age").addEventListener(
   },
   { capture: true }
 );
+
 
