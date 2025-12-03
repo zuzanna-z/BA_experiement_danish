@@ -496,7 +496,11 @@ const run_control = (idx) => {
 
 let answer_ready = true;
 let first_instance = true;
-answer_block.addEventListener("click", (e) => {
+
+Array.from(
+    answer_block.getElementsByTagName("input")
+  ).forEach(elm=>{
+  elm.addEventListener("click", (e) => {
   // console.log("clicked");
   // console.log(e.target.tagName);
   // console.log(answer_ready);
@@ -559,6 +563,8 @@ answer_block.addEventListener("click", (e) => {
     main_txt_div.classList.toggle("hidden");
   }
 });
+  })
+
 
 const objToCSV = (obj) => {
   let csv = "data:text/csv;charset=utf-8,";
@@ -822,3 +828,4 @@ document.getElementById("participant_age").addEventListener(
   },
   { capture: true }
 );
+
