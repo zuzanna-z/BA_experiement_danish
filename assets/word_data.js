@@ -155,7 +155,6 @@ const en_words = [
 'channel',
 ]
 const en_pseudowords = [
-'word',
 'roud',
 'soad',
 'coad',
@@ -188,15 +187,15 @@ const en_pseudowords = [
 'cardtul',
 'canctul',
 'retutio',
-'retutio',
-'retutio',
-'retutio',
-'retutio',
+'rention',
+'etuto',
+'tutio',
+'retuntion',
 'anignment',
-'anisement',
-'anissment',
+'anisemen',
+'angissment',
 'anirement',
-'anintment',
+'anintmet',
 'potige',
 'potide',
 'potike',
@@ -206,4 +205,5 @@ const en_pseudowords = [
 'atusser',
 'atuager',
 'aturler',
+
 ]
